@@ -1,0 +1,274 @@
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width:960px;
+}
+
+:root {
+  background-color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(155,155,155,1);
+}
+
+.item1 {
+  background: transparent;
+  border-radius: 5px;
+  border: 3px solid #fff;
+  width: 100%;
+  padding: 10px 0px 10px 0px;
+}
+
+.item2 {
+  background: transparent;
+  border-radius: 5px;
+  border: 3px solid #fff;
+  width: 100%;
+  padding: 10px 0px 10px 0px;
+}
+
+.item3 {
+  background: transparent;
+  border-radius: 5px;
+  border: 3px solid #fff;
+  width: 100%;
+  padding: 10px 0px 10px 0px;  
+}
+
+#main {
+  background: linear-gradient(56deg, rgb(252,76,2), rgb(4,30,66), rgb(252,76,2));
+  padding: 10px 30px 30px 30px;
+  font-family: Jua;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 15px;
+  position: relative;
+}
+
+#tributenav {
+  background: transparent;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  margin: 20px auto 35px auto;
+  width: 100%;
+}
+
+#achievements {
+  background: transparent;
+  padding: 1vw;
+}
+
+#img-div img {
+  border-radius: 10px;
+  border: 5px solid #fff;
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  text-align: left;
+  max-width: 450px;
+  margin: auto;
+  width: auto;
+}
+
+ul li {
+  margin-bottom: 1vw;
+}
+
+#achievements h3 {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+ul strong {
+  color: white;
+  font-size: 20px;
+}
+
+#ContactUs {
+  margin-top: 5vw;
+  background: transparent;
+  width: 100%;
+}
+
+#RaW {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20%;
+  grid-template-rows: 1fr;
+  margin-right: 10vw;
+  margin-left: 5vw;
+}
+
+#RaWwine {
+    border: 3px solid #fff;
+    border-radius: 10px;
+    padding: 20px 30px;
+    width: 100%;
+}
+
+#RaWwine img {
+    margin-left: -3px;
+    height: 40%;
+    width: 100%;
+    border-style: dashed;
+}
+
+#RaWRes {
+    border: 3px solid #fff;
+    border-radius: 10px;
+    padding: 20px 30px;
+    width: 100%;
+}
+
+#RaWRes img {
+    margin-left: -3px;
+    height: 40%;
+    width: 100%;
+    border-style: dashed;
+}
+
+#Author {
+  margin-top: 6%;
+  text-align: center;
+}
+
+#footer {
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 970px) {
+  
+  #RaWRes img {
+    margin-left: -3px;
+    height: 60%;
+    width: 100%;
+    border-style: dashed;
+    }
+  
+  @media screen and (max-width: 780px) {
+  
+  #RaWwine img {
+    margin-left: -3px;
+    height: 30vw;
+    width: 100%;
+    border-style: dashed;
+    }
+    
+  #RaWRes img {
+    margin-left: -3px;
+    height: 30vw;
+    width: 100%;
+    border-style: dashed;
+    }
+}
+
+@media screen and (max-width: 550px) {
+  
+  #RaW {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20%;
+  grid-template-rows: 1fr;
+  margin-right: 10vw;
+  margin-left: -2vw;
+}
+
+}
+  
+  @media screen and (max-width: 375px) {
+    #RaW {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(40px, 400px));
+  grid-gap: 20%;
+  grid-template-rows: 1fr 1fr;
+  margin-right: 20vw;
+  margin-left: 6vw;
+  margin-bottom: 20vw;
+    }
+    
+  #RaWwine {
+    border: 3px solid #fff;
+    border-radius: 10px;
+    padding: 20px 30px;
+    margin-bottom: 10vw;
+    width: 100%;
+  }
+    
+    #RaWwine img, #RaWRes img {
+      width: 100%;
+      height: 150px;
+    }
+    ul {
+      margin-right: 5vw;
+    }
+    
+ #achievements {
+      margin-top: 10vw;
+    }
+    
+    #RaWRes {
+      margin-bottom: 13vw;
+    }
+    
+    #ContactUs {
+      margin-bottom: 1vw;
+    }
+     
+    .item3 {
+      width: 300px;
+    }
+    
+#tributenav {
+  background: transparent;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(145px, 150px));
+  grid-gap: 10px;
+  margin: 0px auto 35px -2.5%;
+  width: 90%;
+}
+
+ #image {
+ margin-left: -1vw;
+    }
+    
+ #img-caption {
+  margin-left: 6px;   
+   line-height: 20px;
+   margin-top: 5px;
+    }  
+    
+#ContactUs h2 {
+  margin-top: 20%;
+  margin-bottom: 5%;
+    }
+  }
+     
+  @media screen and (max-width: 375px) { 
+    
+    #tributenav {
+  background: transparent;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(1, minmax(250px, 250px));
+  grid-template-rows: repeat(3, minmax(30px, 40px));
+  grid-gap: 10px;
+  margin: 0px auto 35px 5.5%;
+  width: 90%;
+}
+    
+  .item3 {
+      width: 250px;
+    }
+  }
