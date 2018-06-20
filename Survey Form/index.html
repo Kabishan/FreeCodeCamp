@@ -1,0 +1,57 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<link rel="stylesheet" href="styles.css">
+
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width", initial scale=1.0>
+
+<body id="wrapper">
+  <h1 id="title">Kabishan's Survey</h1>
+  <p id="description">Welcome to my survey. Please answer the following questions.</p>
+    <form action="/submit-answers.php" id="survey-form">
+      <label for="name" id="name-label">* Name: </label>
+      <input type="text" name="name" id="name" placeholder="Enter your name" required></input>
+      <label for="email" id="email-label">* Email: </label>
+      <input type="email" name="email" id="email" placeholder="Enter your email" required></input>
+      <label for="number" id="number-label">* Age: </label>
+      <input type="number" name="age" id="number" min="1" max="125" placeholder="Enter your age" required>
+    </div>
+  <div id="option-label">
+    <label for="dropdown" style="margin-top: 1%;">What is your current employment status?</label>
+    <select type="dropdown" name="dropdown" id="dropdown">
+     <option disabled value>Select an option</option>
+     <option value="student">Student</option>
+     <option value="emppart">Employed Part Time</option>
+     <option value="empfull">Employed Full Time</option> 
+     <option value="unemp">Unemployed</option>
+     <option value="seekemp">Seeking Employment</option> 
+    </select>
+    </div><br>
+      <div id="userRating">
+        <label for="userRating">Would you recommend Kabishan's survey to your friends and family?</label>
+        <div id="userRatingopts">
+        <h5><input type="radio" name="userRating" id="userRating" value="yes" checked></input>Yes</h5> 
+        <h5><input type="radio" name="userRating" id="userRating" value="yes"></input>Perhaps</h5>
+        <h5><input type="radio" name="userRating" id="userRating" value="yes"></input>No, sorry</h5>
+        </div>
+      </div>
+<br><br>
+    <div id="emptype">
+        <label for="emptype">Select all fields of work in which you are interested: </label>
+      <div id="emptypeopts">
+      <h5><input type="checkbox" name="emptype" id="emptype" value="painter">Painter</h5>
+      <h5><input type="checkbox" name="emptype" id="emptype" value="deejay">Disk Jockey</h5>
+      <h5><input type="checkbox" name="emptype" id="emptype" value="emcee">Emcee</h5>
+      <h5><input type="checkbox" name="emptype" id="emptype" value="librarian">Librarian</h5>
+      <h5><input type="checkbox" name="emptype" id="emptype" value="Engineer">Engineer</h5>
+      <h5><input type="checkbox" name="emptype" id="emptype" value="Doctor">Doctor</h5> 
+      </div><br><br>
+      <div id="textarea">
+        <label for="textarea" style="vertical-align: top;">Feel free to leave any specifics, comments or suggestions for this survey.</label>
+        <textarea rows:"infinite"></textarea>
+      </div><br>
+        <button type="submit" id="submit">Submit</button>
+      </div>
+      </form>
+</body>
